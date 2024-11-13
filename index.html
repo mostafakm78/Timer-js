@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <div class="header-timer">
+                <input type="text" id="input" placeholder="زمان مورد نظر خود را به ثانیه وارد نمایید">
+                <button id="btn">ثبت</button>
+            </div>
+            <div id="error-msg"></div>
+                <div class="c100 p100">
+                    <span class="adad-timer">250</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+              <div class="text">
+                <span class="text-run">در حال اجرا ...</span>
+                <span class="text-end">شمارنده پایان یافت</span>
+              </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
